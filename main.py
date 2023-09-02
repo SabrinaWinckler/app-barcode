@@ -1,3 +1,4 @@
+import kivy
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
@@ -6,9 +7,6 @@ from kivy.uix.label import Label
 from kivy.uix.screenmanager import Screen, ScreenManager
 from kivy.graphics import Color, Rectangle
 from pyzbar.pyzbar import decode
-from kivy.clock import Clock
-import numpy as np
-from io import BytesIO
 from PIL import Image
 import requests_cache
 from pydub import AudioSegment
@@ -17,18 +15,14 @@ from pydub.playback import play
 from kivy.clock import Clock
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
-from googlesearch import search
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from pyzbar.pyzbar import decode
-import cv2
 import numpy as np
 from kivy.uix.popup import Popup
 from kivy.uix.label import Label
 import threading
-import time
-import re
 import requests
 from kivy.lang import Builder
 from kivy.uix.behaviors import ButtonBehavior

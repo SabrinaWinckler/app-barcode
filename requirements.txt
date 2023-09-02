@@ -1,2 +1,11 @@
-Kivy==2.0.0
-webview==0.1.5
+kivy
+pyzbar
+Pillow
+requests_cache
+pydub
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+beautifulsoup4
+selenium
+numpy
